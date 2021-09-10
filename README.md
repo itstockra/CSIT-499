@@ -1,7 +1,7 @@
 # CSIT-499
 
 # Instructions for downloading ANTLR and running from terminal w/ UNIX
-Prerequisits:
+Prerequisites:
 
 Before installing you will need java, the runtime enviornment and the development kit
 
