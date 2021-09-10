@@ -2,9 +2,13 @@
 
 # Instructions for downloading ANTLR and running from terminal w/ UNIX
 Prerequisits:
+
 Before installing you will need java, the runtime enviornment and the development kit
+
 Commands to install Java:
+
 JDK: sudo apt install default-jdk
+
 JRE: sudo apt install default-jdk
 
 1. Create a directory for the install files, I'll use install_files for this example
