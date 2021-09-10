@@ -24,11 +24,13 @@ JRE: sudo apt install default-jdk
 5. Create aliases for using ANTLR tools (again, add to .bashrc for permanent aliases)
 
    alias antlr4='java -Xmx500M -cp "/usr/local/install_files/antlr-4.9-complete.jar:$CLASSPATH" org.antlr.v4.Tool'
+   
    alias grun='java -Xmx500M -cp "/usr/local/install_files/antlr-4.9-complete.jar:$CLASSPATH" org.antlr.v4.gui.TestRig'
 
 6. Download CPP14 grammar files from Github using links below
 
    Lexer: wget https://raw.githubusercontent.com/antlr/grammars-v4/master/cpp/CPP14Lexer.g4
+   
    Parser: wget https://raw.githubusercontent.com/antlr/grammars-v4/master/cpp/CPP14Parser.g4
 
 7. Run commands:
